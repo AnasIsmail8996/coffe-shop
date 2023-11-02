@@ -1,0 +1,3081 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* yaha se  top wala navbar start horah hai */
+
+.containerParent{
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  background-color: #404040;
+  width: 100%;
+  height: 90px;
+  /* margin-top: -2%; */
+  /* margin-left: -0.60%; */
+  left: 0;
+  top: 0;
+}
+div .top-img {
+    position:absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 7rem;
+}
+.vartical-line{
+    position: absolute;
+    margin-left: 12%;
+    top: 18px;
+    border: 1px solid #dadada;
+     height:45px;   
+
+}
+.Svg-icoon{
+    position: absolute;
+    margin-left: 13%;
+    top: 31px;
+    height:25px;
+    width: 30px;
+    border-radius: 6px;  
+    background-color: hsla(0,0%,89%,.15); 
+  display: flex;
+  justify-content: center;
+  align-items: center   ;
+}
+
+.Navlinks-Bar {
+    position: absolute;
+    margin-left: 17%;
+    top: 18%;
+    
+}
+.Navlinks-Bar ul {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .Navlinks-Bar li {
+    display: inline; 
+    margin-right: 10px;
+    padding: 5px; 
+  }
+  
+  .Navlinks-Bar a {
+    text-decoration: none;  
+    color: #f3f3f3;
+    font-weight: 300;
+    font-family: Poppins,sans-serif;
+  }
+.Navlinks-Bar a:hover{
+
+cursor: pointer;
+color: red;
+
+  }
+
+  .language-btn{
+    position: absolute;
+    left: 75%;
+    top: 35%;
+
+  }
+  .lan-EN{
+    border-radius: 30px 0 0 30px;
+    width: 55px;
+    border: none;
+    padding: 0 1rem;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.lan-ES{
+    border-radius: 0px 30px 30px    0px;
+    width: 55px;
+    padding: 0 1rem;
+  border: none;
+  margin: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 5px;
+  }
+.lan-ES:active{
+    background-color: red;
+    color: #fff;
+}
+
+  .lan-EN:active{
+ background-color: red;
+ color: #fff;
+
+  }
+
+/* login btn */
+  .login-btn{
+    position: absolute;
+    left: 82%;
+  padding: 35px;
+    
+  }
+
+  .login-btn button{
+    border: none;
+    border-radius: 30px;
+    background-color: #404040;
+    font-weight: 500;
+    color: #f3f3f3;
+        text-transform: none;
+        font-family: Poppins,sans-serif;
+        cursor: pointer;
+  }
+  .singnup-btn{
+   position: absolute;
+   margin-left: 88%;
+   padding: 30px;
+
+  }
+
+  .singnup-btn button{
+    width: 7rem;
+    height:35px;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    font-family: Poppins,sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .singnup-btn button:hover{
+    background-color: #404040;
+    border: 1px solid red;
+  }
+
+
+  .horizontal-line{
+    position: absolute;
+    top: 18px;
+    border: 1px solid #dadada;
+    width: 100%;
+    top: 5.50rem;   
+
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1023px)  {
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    } 
+    .containerParent{
+      background-color: #404040;
+      width: 75%;
+      height: 50px;
+      left: 0;
+      top: 0;
+    }
+
+    div  .top-img {
+      position:absolute;
+      margin-top: 15px;
+      margin-left:5px;
+      width: 65px;
+  }
+  .vartical-line{
+    position: absolute;
+    margin-left: 10%;
+    top: 5px;
+    border: 1px solid #dadada;
+     height:35px;   
+
+} 
+
+.Svg-icoon{
+  position: absolute;
+  margin-left: 11%;
+  top: 12px;
+  height:20px;
+  width: 25px;
+  border-radius: 6px;  
+  background-color: hwb(0 89% 11% / 0.15); 
+display: flex;
+justify-content: center;
+align-items: center   ;
+}
+
+
+.Navlinks-Bar {
+  position: absolute;
+  margin-left: 14%;
+  top: -10%;
+  
+}
+.Navlinks-Bar ul {
+  list-style: none; 
+  padding: 0px; 
+}
+
+.Navlinks-Bar li {
+  display: inline; 
+  margin-right: 0px;
+  padding: 5px; 
+}
+
+.Navlinks-Bar a {
+  text-decoration: none;  
+  color: #f3f3f3;
+  font-weight: 300;
+  font-size: 10px;
+  font-family: Poppins,sans-serif;
+}
+.Navlinks-Bar a:hover{
+
+cursor: pointer;
+color: red;
+
+}
+
+.language-btn{
+  position: absolute;
+  left: 45%;
+  top: 20%;
+
+}
+.lan-EN{
+  border-radius: 30px 0 0 30px;
+  width: 35px;
+  border: none;
+  padding: 0 0.5rem;
+  padding: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.lan-ES{
+  border-radius: 0px 30px 30px    0px;
+  width: 35px;
+  padding: 0 0.5rem;
+border: none;
+margin: 1px;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease;
+padding: 3px;
+}
+.login-btn{
+  position: absolute;
+  left: 50%;
+padding: 10px 45px;
+  
+}
+
+.login-btn button{
+  border: none;
+  border-radius: 30px;
+  background-color: #404040;
+  font-weight: 400;
+  color: #f3f3f3;
+  text-transform: none;
+  font-family: Poppins,sans-serif;
+  cursor: pointer;
+}
+.singnup-btn{
+ position: absolute;
+ margin-left: 60%;
+ padding: 10px 35px;
+
+}
+
+.singnup-btn button{
+  width: 5rem;
+  height:25px;
+  background-color: red;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  font-family: Poppins,sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.singnup-btn button:hover{
+  background-color: #404040;
+  border: 1px solid red;
+}
+
+
+.horizontal-line{
+  position: absolute;
+  top: 12px;
+  border: 1px solid #dadada;
+  width: 100%;
+  top: 3rem;   
+
+}
+
+                                                        /* navbar after line  */
+.navbar-after-line{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: #404040;
+  width: 65%;
+  height: 70px;
+  margin-top: -5.25%;
+  left: 0;
+}                                                        
+.text-second-line{
+  position: absolute;
+}
+.text-second-line p{
+  font-family: Poppins,sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 12px;
+  margin-left: -10%;
+  
+}
+.Telephone-btn button{
+  position: relative; 
+  /* width: 5rem;
+  height:35px; */
+  background-color: red;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-weight: 200;
+  font-size: 10px;
+  font-family: Poppins,sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 8px 25px;
+  line-height: 5%;
+}
+
+.text-second-line{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+}
+.video-top{
+  position: absolute;
+margin-top: -18%;
+  
+  }                                                       
+  .video-top video {
+  
+  max-width: 1397px; 
+  width: 100%;
+  height: auto;                                                         
+  }
+  video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }   
+
+  .Video-Content{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight:300;
+  
+  }
+  
+  .Video-Content h1{
+  
+  
+  margin-top: -12%;
+ font-size: 35px;
+letter-spacing: 1px;
+line-height: 35px;
+ 
+  }
+  
+.Video-Content h1 span{
+  color: red  ;
+  font-family: 'Poppins';
+ 
+  }
+  .Video-Content  p{
+    color:#fff ;
+    font-family: 'Poppins';
+   line-height: 35px;
+    } 
+
+  .Invest-btn{
+  position: absolute;
+ margin-left: -5%;
+ margin-top: -10%;
+}
+
+.Invest-btn button{
+  font-weight: 200;
+  border-radius: 30px;
+  background-color: red;
+  color: #fff;
+  font-family: 'Poppins';
+  width: 25px;
+  text-align: center;
+  line-height: 10px;
+  height: 25px;
+ font-size: 5px;
+ border: none;
+}
+
+                                            /*Slider */
+
+.slider-container {
+  width: 100%;
+  height: 35%;
+position: absolute  ;
+margin-top: -165%;
+left: 10%;
+background-color: #b1a2a2;
+border-radius:30px  ;
+}
+.slider-person-div{
+  
+width: 45%;
+height: 25%;
+  margin-top: 25%;
+}
+.slider-img{
+  width: 10%; 
+  height: 45px;
+  border-radius:25px;
+}
+.slider-container   .slider-person-div  p{
+  font-size: 8px;
+  font-family: 'poppins';
+  font-weight: 300;
+  line-height: 2px;
+  letter-spacing: 0;
+  margin: 0 ;
+  text-align: left;
+  width: 25%;
+  color: #a85858;
+}
+
+.spanitem{
+  display: flex;
+  flex-direction: row;
+  margin-top: -2%;
+}
+ .spanitem span{
+  font-size: 10px;
+  font-family: 'poppins';
+  font-weight: 200;
+  line-height: 5px;
+  letter-spacing: 0;
+  margin: 0 ;
+  text-align: left;
+  width: 25%;
+  color: #c91a1a;
+}
+
+
+  /* text Line Starting from starting here */
+
+  .Text-top{
+    position: absolute;
+
+     
+   }
+   .Text-top h1 span {
+    font-size: 15px;
+    line-height: 2rem;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    text-align: center;
+    color: #404040;
+    font-family: 'Poppins', sans-serif;
+  }
+                                                                               
+        .Text-top h1 span{
+         color: #df1e1e;
+         font-size: 25px;
+         font-weight: 700;
+        }
+   
+   .after-Heading-text {
+         font-size: 15px;
+         line-height: 15px;
+         font-weight: 400;
+        letter-spacing: 0rem;
+        text-align: center;
+      color: #404040;;
+      font-family: Poppins,sans-serif;
+        width: 45%;
+        margin-left: 16%;
+        }
+       
+   
+
+
+                                           /* Phone  line starting from here */
+ 
+                                           
+ .Phone-img{
+  position: absolute;
+  top: 70%;
+  width: 35%;
+  height: 400px;
+  margin-left: -11%;
+ }                                          
+
+ .card-info{
+  position: absolute;
+  width: 80%;
+  height: 140px;
+  background-color: #404040b2;
+  border-radius: 25px;
+ margin-left: 38%;
+
+}
+.card-info p{
+  font-size: 10px;
+  font-weight: 200;
+top: 15%;
+ margin-left: 5%;
+ line-height: 20px;
+color: #fffffff8;;
+font-family: Poppins,sans-serif;
+}
+.card-img{
+position: relative;
+  width: 15px;
+ left: 70%;
+ top: -10%;
+}
+.text-two{
+  font-family: Poppins,sans-serif;
+ font-size: 15px;
+  
+}
+
+
+.card-info-there{
+  position: absolute;
+  width: 50%;
+  height: 120px;
+  background-color: #404040b2;
+  border-radius: 25px;
+ 
+ 
+
+}
+.card-info-there p{
+  font-size: 20px;
+  font-weight: 400;
+margin-top: 1%;
+ margin-left: 5%;
+color: #fffffff8;;
+font-family: Poppins,sans-serif;
+}
+.card-img-there{
+position: relative;
+  width: 45px;
+ margin-left: -10%;
+ top: -10%;
+}
+.text-Four{
+  font-family: Poppins,sans-serif;
+  width: 35% ;
+  font-size: 15px;
+  font-weight: 200;
+  height: auto;
+  position: absolute  ;
+  margin-top: -2%;
+top: 15%;  
+padding: 15px;
+  
+}                
+
+
+.card-info-two{
+  position: absolute;
+  width: 50%;
+  height: 120px;
+  background-color: #404040b2;
+  border-radius: 25px;
+margin-left: 42%;
+
+}
+
+
+ /* after phone page color page starting from here  */
+
+ .back-img{
+
+
+  background-image: url('../src/components/images/sec-three.cd7ccdaa4109b4e91650.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -305%;
+  /* display: flex;
+  flex-direction: row;
+  gap: 5% ;  */
+}
+
+
+.Text-Heading-H1 h1{
+  font-size: 15px;
+font-family: Poppins,sans-serif;
+font-weight: 200;
+color: #fff;
+width: 55%;
+line-height: 45px;
+}
+
+.Text-Heading-H1 h1 span{
+  color: #c91a1a;
+  font-weight: 400;
+
+
+}
+.Text-Heading-H2 p{
+width: 55%;
+  color: #fff;
+font-size: 15px;
+font-weight: 200;
+margin-top: 6%;
+margin-left: 10%;
+line-height: 1rem;
+}
+.btn-contact-us{  
+
+max-width: 10rem;
+
+line-height: 10px;
+  
+}
+
+.video-section video {
+
+  width: 45%;
+  height:  200px;
+
+  border-radius: 50rem ;
+}
+
+
+
+
+                          /*  Question & answer page starting from here                 */
+  .defi-Info h2{
+    
+    margin-top: -400%;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 300;
+  }                        
+
+                                                    /* modal one  */
+  .modal {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: -405%;
+    width: 40%;
+    height: 35%;
+
+}
+
+.modal-content {
+    border-radius: 30px;
+      position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    left: 85%;
+  }
+  .close h2 p{  
+box-sizing: border-box;
+font-family: Poppins, sans-serif;
+position: absolute;
+
+ color: #000000;
+ font-size: 25px;
+ font-weight: 200;
+ text-align: center;
+ width: 100%;
+}
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+                                                /* modal  Two  */
+
+
+                                                .modal-two {
+                                                  
+                                                  
+                                                  
+                                              
+                                                  display: block;
+                                                  position: absolute;
+                                                  z-index: 1;
+                                                 margin-top: -418%;
+                                                  width: 40%;
+                                                  height: 35%;
+                                              
+                                              }
+                                              
+                                              .modal-content-two {
+                                                  border-radius: 30px;
+                                                    position: relative;
+                                                  top: 50%;
+                                                  transform: translate(-50%, -50%);
+                                                  background-color: white;
+                                                  padding: 20px;
+                                                  border: 1px solid #ccc;
+                                                  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                                                  text-align: center;
+                                                  left: 85%;
+                                                  
+                                                }
+                                                .close-two h2 p{  
+                                              box-sizing: border-box;
+                                              font-family: Poppins, sans-serif;
+                                              position: absolute;
+                                              
+                                               color: #000000;
+                                               font-size: 25px;
+                                               font-weight: 400;
+                                               text-align: center;
+                                               width: 95%;
+                                              }
+                                              
+                                                .close-two {
+                                                  position: absolute;
+                                                  top: 0;
+                                                  right: 0;
+                                                  padding: 10px;
+                                                  cursor: pointer;
+                                                }
+                                                
+                                                
+                                      /* card section starting fron here */
+                                                
+                                                .First-card{
+                                                  position: absolute;
+                                                  margin-top: -450%;
+                                                  display: flex;
+                                                  flex-direction: column;
+                                                  justify-content: center;
+                                                  align-items: center;
+                                                  margin-inline: auto;
+                                                  width: 24%;
+                                                  height: 450px;
+                                                  background-color: #fff;
+                                                  border-radius: 20px;
+                                                  left: 5%;
+                                                 }          
+                                                 .First-card img{
+                                                  width: 35%;
+                                                 }         
+                                                 
+                                                 .First-card h2{
+                                                  font-size: 15px;
+                                              
+                                                  font-weight: 400;
+                                                  font-family: Poppins, sans-seri
+                                                 }
+                                                  .First-card h2 span{
+                                                    color: #c91a1a;
+                                                    
+                                                  }
+                                                  .First-card  p{
+                                                    color: rgb(43, 43, 43);
+                                                    font-family: Poppins;
+                                                    font-size: 10px;
+                                                    font-style: normal;
+                                                    font-weight: 200;
+                                                    line-height: normal;
+                                                    text-align: center;
+                                                    margin-bottom: 32px !important;
+                                                  }
+                                    
+                                                  .First-card  button{
+                                                    color: #ccc;
+                                                    background-color: red;
+                                                    border-radius: 15px;
+                                                    line-height: 5px;
+                                                    border: none;
+                                                    font-family: poppins;
+                                                    font-size: 10px;
+                                                    padding: 10px;
+                                                  }
+                                    
+                                                  /* card two  */
+                                    
+                                                  .Second-Card{
+                                                    position: absolute;
+                                                    margin-top: -450%;
+                                                  
+                                                  
+                                                    margin-inline: auto;
+                                                    width: 24%;
+                                                    height: 450px;
+                                                    background-color: #fff;
+                                                    border-radius: 20px;
+                                                    left: 35%;
+                                                    background-color: #e0e0e0;
+                                                  }
+                                    
+                                                  .Second-Card h2{
+                                                    color: #c91a1a  ;
+                                                    font-family: poppins;
+                                                    font-size: 10px;
+                                                    font-weight: 200;
+                                                  margin: 18px 25px ;
+                                                  }
+                                    
+                                                  .Second-Card p{
+                                                    font-family: poppins;
+                                                    font-size: 12px;
+                                                    font-weight: 200;
+                                                    margin: 10px 22px ;
+                                                    color: rgb(43, 43, 43);
+                                                  }
+                                                  .Second-Card span{
+                                                    font-family: poppins;
+                                                    font-size: 12px;
+                                                    font-weight: 300;
+                                                    float: right;
+                                                       margin: -15px;
+                                                  }
+                                                  .line-text{
+                                                
+                                                   margin-top: 30%;
+                                                 
+                                                  }
+                                                  .simple-line{
+                                                    margin: -21px;
+                                                    width: 92%;
+                                                    margin-inline: auto;
+                                                  }
+                                    
+                                                                 /*  line two text*/
+                                                  .Second-Card-two{
+                                                  
+                                                  margin-top: 11%;
+                                                  }
+                                    
+                                                  .Second-Card-two p{
+                                                    font-family: poppins;
+                                                    font-size: 10px;
+                                                    font-weight: 200;
+                                                    margin: 20px 30px ;
+                                                    color: rgb(43, 43, 43);
+                                                  }
+                                                  .Second-Card-two span{
+                                                    font-family: poppins;
+                                                    font-size: 12px;
+                                                    font-weight: 300;
+                                                    float: right;
+                                                       margin: -12px;
+                                                  }
+                                                  .line-text-two{
+                                                    position: absolute;
+                                                    border: 3px solid #b9b9b9;
+                                                    height: 0;
+                                                 mix-blend-mode: multiply;
+                                                 padding-right: 10%;
+                                                   width: 45px;
+                                                   left: 65%;
+                                                   top: 24%;
+                                                  }
+                                                  .simple-line-two{
+                                                    margin: -13px;
+                                                    width: 92%;
+                                                    margin-inline: auto;
+                                                  }
+                                    
+                                    
+                                    
+                                    
+                                    
+                                                  
+                                                                 /*  line there text*/
+                                                                 .Second-Card-there{
+                                                  
+                                                                  margin-top: 11%;
+                                                                  }
+                                                    
+                                                                  .Second-Card-there p{
+                                                                    font-family: poppins;
+                                                                    font-size: 20px;
+                                                                    font-weight: 500;
+                                                                    margin: 20px 30px ;
+                                                                    color: rgb(43, 43, 43);
+                                                                  }
+                                                                  .Second-Card-there span{
+                                                                    font-family: poppins;
+                                                                    font-size: 25px;
+                                                                    font-weight: 500;
+                                                                    float: right;
+                                                                       margin: -12px;
+                                                                  }
+                                                                  .line-text-there{
+                                                                    position: absolute;
+                                                                    border: 3px solid #b9b9b9;
+                                                                    height: 0;
+                                                                 mix-blend-mode: multiply;
+                                                                 padding-right: 10%;
+                                                                   width: 45px;
+                                                                   left: 65%;
+                                                                   top: 35%;
+                                                                  }
+                                                                  .simple-line-there{
+                                                                    margin-top: -14px;
+                                                                    width: 92%;
+                                                                    margin-inline: auto;
+                                                                  }
+                                    
+                                    
+                                    
+                                                                  /*  line four text*/
+                                                                 .Second-Card-four{
+                                                  
+                                                                  margin-top: 9%;
+                                                                  }
+                                                    
+                                                                  .Second-Card-four p{
+                                                                    font-family: poppins;
+                                                                    font-size: 20px;
+                                                                    font-weight: 500;
+                                                                    margin: 20px 30px ;
+                                                                    color: rgb(43, 43, 43);
+                                                                  }
+                                                                  .Second-Card-four span{
+                                                                    font-family: poppins;
+                                                                    font-size: 25px;
+                                                                    font-weight: 500;
+                                                                    float: right;
+                                                                       margin: -12px;
+                                                                  }
+                                                                  .line-text-four{
+                                                                    position: absolute;
+                                                                    border: 3px solid #b9b9b9;
+                                                                    height: 0;
+                                                                 mix-blend-mode: multiply;
+                                                                 padding-right: 10%;
+                                                                   width: 45px;
+                                                                   left: 65%;
+                                                                   top: 47.75%;
+                                                                  }
+                                                                  .simple-line-four{
+                                                                    margin-top: -9px;
+                                                                    width: 92%;
+                                                                    margin-inline: auto;
+                                                                  }
+                                                                  /* five  line text*/
+                                    
+                                                                  .Second-Card-five{
+                                                  
+                                                                    margin-top: 9%;
+                                                                    }
+                                                      
+                                                                    .Second-Card-five p{
+                                                                      font-family: poppins;
+                                                                      font-size: 20px;
+                                                                      font-weight: 500;
+                                                                      margin: 20px 30px ;
+                                                                      color: rgb(43, 43, 43);
+                                                                    }
+                                                                    .Second-Card-five span{
+                                                                      font-family: poppins;
+                                                                      font-size: 25px;
+                                                                      font-weight: 500;
+                                                                      float: right;
+                                                                         margin: -12px;
+                                                                    }
+                                                                    .line-text-five{
+                                                                      position: absolute;
+                                                                      border: 3px solid #b9b9b9;
+                                                                      height: 0;
+                                                                   mix-blend-mode: multiply;
+                                                                   padding-right: 10%;
+                                                                     width: 45px;
+                                                                     left: 65%;
+                                                                     top: 60.55%;
+                                                                    }
+                                                                    .simple-line-five{
+                                                                      margin-top: -9px;
+                                                                      width: 92%;
+                                                                      margin-inline: auto;
+                                                                    }
+                                                                     /* six  line text*/
+                                    
+                                                                  .Second-Card-six{
+                                                  
+                                                                    margin-top: 9%;
+                                                                    }
+                                                      
+                                                                    .Second-Card-six p{
+                                                                      font-family: poppins;
+                                                                      font-size: 20px;
+                                                                      font-weight: 500;
+                                                                      margin: 20px 30px ;
+                                                                      color: rgb(43, 43, 43);
+                                                                    }
+                                                                    .Second-Card-six span{
+                                                                      font-family: poppins;
+                                                                      font-size: 25px;
+                                                                      font-weight: 500;
+                                                                      float: right;
+                                                                         margin: -12px;
+                                                                    }
+                                                                    .line-text-six{
+                                                                      position: absolute;
+                                                                      border: 3px solid #b9b9b9;
+                                                                      height: 0;
+                                                                   mix-blend-mode: multiply;
+                                                                   padding-right: 10%;
+                                                                     width: 45px;
+                                                                     left: 65%;
+                                                                     top: 73.25%;
+                                                                    }
+                                                                    .simple-line-six{
+                                                                      margin-top: -9px;
+                                                                      width: 92%;
+                                                                      margin-inline: auto;
+                                                                    }
+                                                                    .last-text{
+                                                                      font-family: poppins;
+                                                                      font-size: 15px;
+                                                                      font-weight: 100;
+                                                                      color: #2b2b2b;
+                                                                      line-height: 1.55rem;
+                                                                    }
+                                    
+                                    /* third card starting from here */
+                                    
+                                                                    .card-third{
+                                                                      position: absolute;
+                                                                    margin-top: -450%;
+                                                                      margin-inline: auto;
+                                                                      width: 28%;
+                                                                      height: 600px;
+                                                                      background-color: #e11f1c;
+                                                                      border-radius: 20px;
+                                                                      left: 65%;
+                                                                     
+                                                                    }
+                                                                    .first-row{
+                                                                     display: flex;
+                                                                     flex-direction: row;
+                                                                    gap: 15%;
+                                                                    }
+                                                                    .first-row p{
+                                                                      margin: 35px;
+                                                                      color: #fff;
+                                                                      font-family: poppins;
+                                                                      font-size: 20px;
+                                                                      
+                                                                      }
+                                                                      .first-row-two{
+                                                                        position: relative;
+                                                                        background-color: #a10707;
+                                                                        border-radius: 10px;
+                                                                        font-size:18px ;
+                                                                        height: 32px;
+                                                                        margin-top: 0;
+                                                                        padding: 6px 15px;
+                                                                        width: 65px;
+                                                                        
+                                                                      }
+                                    
+                                                                      .Second-row{
+                                    
+                                                                      }
+                                                                      .Second-row-para{
+                                                                        margin: 35px;
+                                                                        color: #fff;
+                                                                        font-family: poppins;
+                                                                        font-size: 20px;
+                                                                      }
+                                                                      .Second-row-price{
+                                                                       margin: 0px 20px;
+                                                                        color: #fff;
+                                                                        font-family: poppins;
+                                                                        font-size: 20px;
+                                                                      }
+                                                                      .Second-row-price-two{
+                                                                        margin: -8%;
+                                                                        margin-left:65%;
+                                                                         color: #fff;
+                                                                         font-family: poppins;
+                                                                         font-size: 20px;
+                                                                       }
+                                                                       .price-ratio{
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                        align-items: center ;
+                                                                       }
+                                                                       .price-ratio-range{
+                                                                        color: #fff;
+                                                                        font-family: poppins;
+                                                                        font-size: 15px;
+                                                                        position: absolute;
+                                                                        background-color: #a10707;
+                                                                        border-radius: 10px;
+                                                                        height: 35px;
+                                                                        margin-top: 45%;
+                                                                        padding: 6px 15px;
+                                                                        width: 75px;
+                                                                       }
+                                    
+                                                                       .year{
+                                                                        position: absolute;
+                                                                        top: 65%;
+                                                                        left: 10%;
+                                                                       }
+                                                                       .year p{
+                                                                        color: #fff;
+                                                                        font-family: poppins;
+                                    
+                                                                       }
+                                                                       .Selected {
+                                                                        position: relative;
+                                                                        background-color: #a10707;
+                                                                        border-radius: 10px;
+                                                                        color: #dadada;
+                                                                        font-weight: 600;
+                                                                        height: 40px;
+                                                                      font-size: 15px;
+                                                                      padding-left: 5%;
+                                                                      cursor: pointer;
+                                                                      width: 110px;
+                                                                       }
+                                                                       .Selected option{
+                                                                         
+                                                                        background-color: #e11f1c;
+                                                                        border: none;
+                                                                        border-radius: 10px;
+                                                                        color: #fff;
+                                                                        font-size: 15px;
+                                                                       
+                                                                       }
+                                                                       #move-dropdown{
+                                                                        position: absolute;
+                                                                        margin-top: -3rem;
+                                                                        margin-left: 12rem;
+                                                                       }
+                                                                       .btn-Culculate button{
+                                                                        position: absolute;
+                                                                        background-color: #fff;
+                                                                        color: #a10707;
+                                                                        font-size: 22px;
+                                                                        font-family: poppins;
+                                                                        font-weight: 400;
+                                                                        border-radius: 10px;
+                                                                        border: none;
+                                                                        top: 81%;
+                                                                        left: 35%;
+                                                                       }
+                                                                       .btn-java-times button{
+                                                                        position: absolute;
+                                                                        align-items: center;
+                                                                        background-color: initial;
+                                                                        border: 1px solid #fff;
+                                                                        border-radius: 30px;
+                                                                        color: #fff;
+                                                                        display: flex;
+                                                                        font-family: Poppins;
+                                                                        font-size: 16px;
+                                                                        font-weight: 500;
+                                                                        height: 35px;
+                                                                        justify-content: center;
+                                                                        letter-spacing: 0;
+                                                                        line-height: 24px;
+                                                                        padding: 20px;
+                                                                        text-align: center;
+                                                                        top: 89%;
+                                                                        left: 21%;
+                                                                       }
+                                    
+                                    
+                                                                       /*   shop Portion Starting here  */
+                                                                       /* .img-shop{
+                                                                        position: absolute;
+                                                                        top: 112%;
+                                                                        left: -55rem;
+                                                                  
+                                                                       } */
+                                                                       
+                                                                       .color-side{
+                                                                        position: absolute;
+                                                                        top: 120%;
+                                                                        align-items: start;
+                                                                        background-color: #232323;
+                                                                        display: flex;
+                                                                        flex: 1 1;
+                                                                        flex-direction: column;
+                                                                        justify-content: center;
+                                                                        padding: 90px;
+                                                                        width: 73rem;
+                                                                        height: 15.73rem ;
+                                                                        left: -55rem;
+                                                                       }
+                                    
+                                                                       .img-shop{
+                                                                        position: relative;
+                                                                        left: -87px;
+                                                                        width: 90%;
+                                                                        height: 35rem;
+                                                                        top: 1%;
+                                                                       }
+                                    .color-side h2{
+                                    position: absolute;
+                                    left: 65%;
+                                    top: 25%;
+                                    font-family: Poppins,sans-serif;
+                                    font-weight: 900;
+                                    font-size: 40px;
+                                    color: #fff;
+                                    }
+                                    .color-side h2 span{
+                                      color: #e11f1c;
+                                    }
+                                    
+                                    
+                                           .color-side p{
+                                            position: absolute;
+                                           left: 65%;
+                                           top: 60%;
+                                    font-family: Poppins,sans-serif;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    color: #fff;
+                                           }                 
+                                    
+                                           .btn-contact{
+                                            position: absolute;
+                                            left: 65%;
+                                            top: 85%;
+                                            
+                                           }
+                                           .btn-contact button{
+                                            background-color: #a10707;
+                                            font-family: Poppins,sans-serif;
+                                            font-size: 15px;
+                                            font-weight: 600;
+                                            border-radius: 30px;
+                                            border: none;
+                                            padding: 10px 18px;
+                                            color: #fff;
+                                            
+                                           }
+  }
+
+
+                                                        /* navbar after line  */
+
+
+.navbar-after-line{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: #404040;
+  width: 100%;
+  height: 70px;
+  /* margin-top: 6%; */
+  /* margin-left: -0.60%; */
+  /* margin-top: 90px; */
+  top: 90px;
+  left: 0;
+}                                                        
+
+.text-second-line{
+  position: absolute;
+  /* display: inline;
+  justify-content: center;
+  align-items: center;
+
+  left: 25%;  */
+}
+.text-second-line p{
+  font-family: Poppins,sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.Telephone-btn {
+  /* position: relative;
+  left: 99%;
+  padding: 30px;
+  margin-top: -11%; */
+}
+
+.Telephone-btn button{
+      position: relative; 
+      /* width: 5rem;
+      height:35px; */
+      background-color: red;
+      border-radius: 30px;
+      border: none;
+      color: #fff;
+      font-weight: 300;
+      font-family: Poppins,sans-serif;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      padding: 8px 25px;
+      line-height: 10px;
+    }
+    .Telephone-btn  button:hover{
+      background-color: #404040;
+      border: 1px solid red;
+    }
+
+    .text-second-line{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+    }
+   
+
+                                                       /*     video page */
+
+
+.video-top{
+position: absolute;
+top: 25%;
+
+}                                                       
+.video-top video {
+
+max-width: 1397px; 
+width: 100%;
+height: auto;                                                         
+}
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}                                                     
+
+.Video-Content{
+  position: absolute;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin: 33px 0px 63px 0px;
+  width: 60%;
+  margin-inline: auto;
+top: 5%;
+left: 22%;
+
+}
+
+.Video-Content h1{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.Video-Content h1 span{
+color: red  ;
+font-family: 'Poppins';
+}
+
+
+
+.Invest-btn{
+  position: absolute;
+  left: 45%;
+top:88% ;
+}
+
+.Invest-btn button{
+  font-weight: 400;
+  border-radius: 30px;
+  background-color: red;
+  color: #fff;
+  font-family: 'Poppins';
+  width: 170px;
+  text-align: center;
+  line-height: 40px;
+  height: 49px;
+ font-size: 20px;
+ border: none;
+}
+
+
+
+/*Slider */
+
+.slider-container {
+  width: 80%;
+  height: 20%;
+position: absolute  ;
+top: 185%;
+left: 10%;
+background-color: #000000;
+border-radius:30px  ;
+}
+.slider-person-div{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10%;
+  gap: 5%;
+  
+}
+.slider-img{
+  width: 21%; 
+  height: 60px;
+  border-radius:30px;
+}
+.slider-container   .slider-person-div  p{
+  font-size: 16px;
+  font-family: 'poppins';
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  margin: 0 ;
+  text-align: left;
+  width: 100%;
+  color: #fff;
+}
+
+.spanitem{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+}
+ .spanitem span{
+  font-size: 16px;
+  font-family: 'poppins';
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  margin: 0 ;
+  text-align: left;
+  width: 100%;
+  color: #c91a1a;
+}
+/* .slick-dots {
+  bottom: 10px;
+}
+
+
+.slick-dots li button:before {
+  font-size: 14px;
+  color: #b13434;
+}
+
+
+.slick-dots li.slick-active button:before {
+  color: #e74a26; 
+} */
+
+
+
+
+                                       /* text Line Starting from starting here */
+
+.Text-top{
+ position: absolute;
+width: 100%;
+margin-top: 110%;
+box-sizing: border-box;
+   
+}
+ .Text-top h1{
+
+   font-size: 40px;
+   line-height: 65px;
+   font-weight: 900;
+  letter-spacing: 0rem;
+  text-align: center;
+color: #404040;;
+font-family: Poppins,sans-serif;
+
+     }
+                                                                            
+     .Text-top h1 span{
+      color: #df1e1e;
+     }
+
+.after-Heading-text {
+      font-size: 40px;
+      line-height: 55px;
+      font-weight: 400;
+     letter-spacing: 0rem;
+     text-align: center;
+   color: #404040;;
+   font-family: Poppins,sans-serif;
+     width: 70%;
+     margin-left: 16%;
+     }
+    
+
+
+
+                                           /* Phone  line starting from here */
+ 
+                                           
+ .Phone-img{
+  position: absolute;
+ margin-top: 170%;
+  width: 35%;
+  height: 1000px;
+  left: 37%;
+ }                                          
+
+ .card-info{
+  position: absolute;
+  width: 50%;
+  height: 120px;
+  background-color: #404040b2;
+  border-radius: 25px;
+  left: 53%;
+  top: 9%;
+display: flex;
+flex-direction: column; 
+
+}
+.card-info p{
+  font-size: 20px;
+  font-weight: 400;
+margin-top: 1%;
+ margin-left: 5%;
+color: #fffffff8;;
+font-family: Poppins,sans-serif;
+}
+.card-img{
+position: relative;
+  width: 45px;
+ left: 70%;
+ top: -10%;
+}
+.text-two{
+  font-family: Poppins,sans-serif;
+  width: 35% ;
+  font-size: 15px;
+  font-weight: 200;
+  height: auto;
+  position: absolute  ;
+  margin-top: -2%;
+top: 15%;  
+padding: 15px;
+  
+}
+
+                   /* card two */
+
+                   .card-info-two{
+                    position: absolute;
+                    width: 50%;
+                    height: 120px;
+                    background-color: #404040b2;
+                    border-radius: 25px;
+                    left: 53%;
+                    top: 42%;
+                  display: flex;
+                  flex-direction: column; 
+                  
+                  }
+                  .card-info-two p{
+                    font-size: 20px;
+                    font-weight: 400;
+                  margin-top: 1%;
+                   margin-left: 5%;
+                  color: #fffffff8;;
+                  font-family: Poppins,sans-serif;
+                  }
+                  .card-img-two{
+                  position: relative;
+                    width: 45px;
+                   left: 70%;
+                   top: -10%;
+                  }
+                  .text-There{
+                    font-family: Poppins,sans-serif;
+                    width: 35% ;
+                    font-size: 15px;
+                    font-weight: 200;
+                    height: auto;
+                    position: absolute  ;
+                    margin-top: -2%;
+                  top: 15%;  
+                  padding: 15px;
+                    
+                  }                
+
+
+                    /* card There  */
+
+
+                    .card-info-there{
+                      position: absolute;
+                      width: 50%;
+                      height: 120px;
+                      background-color: #404040b2;
+                      border-radius: 25px;
+                      left:-22%;
+                      top: 27%;
+                    display: flex;
+                    flex-direction: column; 
+                    
+                    }
+                    .card-info-there p{
+                      font-size: 20px;
+                      font-weight: 400;
+                    margin-top: 1%;
+                     margin-left: 5%;
+                    color: #fffffff8;;
+                    font-family: Poppins,sans-serif;
+                    }
+                    .card-img-there{
+                    position: relative;
+                      width: 45px;
+                     left: 70%;
+                     top: -10%;
+                    }
+                    .text-Four{
+                      font-family: Poppins,sans-serif;
+                      width: 35% ;
+                      font-size: 15px;
+                      font-weight: 200;
+                      height: auto;
+                      position: absolute  ;
+                      margin-top: -2%;
+                    top: 15%;  
+                    padding: 15px;
+                      
+                    }                
+                    
+
+                    /* after phone page color page starting from here  */
+
+.back-img{
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  background-image: url('../src/components/images/sec-three.cd7ccdaa4109b4e91650.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 488%;
+  /* display: flex;
+  flex-direction: row;
+  gap: 5% ;  */
+}
+
+
+.Text-Heading-H1 h1{
+  font-size: 40px;
+font-family: Poppins,sans-serif;
+font-weight: 700;
+color: #fff;
+width: 32%;
+margin-top: 15%;
+margin-left: 10%;
+}
+
+.Text-Heading-H1 h1 span{
+  color: #c91a1a;
+  font-weight: 800;
+font-weight: 700;
+
+}
+.Text-Heading-H2 p{
+width: 32%;
+  color: #fff;
+font-size: 25px;
+font-weight: 200;
+margin-top: 6%;
+margin-left: 10%;
+line-height: 2rem;
+}
+.btn-contact-us{
+
+  padding: 10px;
+  color: #fff;
+  border-radius: 30pc;
+  border: none;
+  background-color: #c91a1a;
+  top: 6%;
+margin-left: 10%;
+font-family: Poppins,sans-serif;
+font-weight: 400;
+font-size: 20px;
+}
+
+.video-section video {
+  position: absolute;
+  top: 21%;
+  width: 45%;
+  height:  200px;
+  left: 45%;
+  margin-right: 10%;
+  border-radius: 50rem ;
+}
+
+.slick-prev:before {
+  content: '←';
+}
+
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #c91313;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+                          /*  Question & answer page starting from here                 */
+  .defi-Info h2{
+     position: absolute;
+     left: 20%;
+    top:660%;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 53px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 65%;
+  }                        
+
+                                                    /* modal one  */
+  .modal {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 690%;
+    width: 60%;
+    height: 35%;
+
+}
+
+.modal-content {
+    border-radius: 30px;
+      position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    left: 85%;
+  }
+  .close h2 p{  
+box-sizing: border-box;
+font-family: Poppins, sans-serif;
+position: absolute;
+
+ color: #000000;
+ font-size: 25px;
+ font-weight: 400;
+ text-align: center;
+ width: 95%;
+}
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+                                                /* modal  Two  */
+
+
+                                                .modal-two {
+                                                  display: block;
+                                                  position: absolute;
+                                                  z-index: 1;
+                                                  top: 725%;
+                                                  width: 60%;
+                                                  height: 35%;
+                                              
+                                              }
+                                              
+                                              .modal-content-two {
+                                                  border-radius: 30px;
+                                                    position: relative;
+                                                  top: 50%;
+                                                  transform: translate(-50%, -50%);
+                                                  background-color: white;
+                                                  padding: 20px;
+                                                  border: 1px solid #ccc;
+                                                  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                                                  text-align: center;
+                                                  left: 85%;
+                                                  
+                                                }
+                                                .close-two h2 p{  
+                                              box-sizing: border-box;
+                                              font-family: Poppins, sans-serif;
+                                              position: absolute;
+                                              
+                                               color: #000000;
+                                               font-size: 25px;
+                                               font-weight: 400;
+                                               text-align: center;
+                                               width: 95%;
+                                              }
+                                              
+                                                .close-two {
+                                                  position: absolute;
+                                                  top: 0;
+                                                  right: 0;
+                                                  padding: 10px;
+                                                  cursor: pointer;
+                                                }
+                                                
+                                                
+
+                                                
+                                         /* card row staring from here */
+
+                                         
+             .First-card{
+              position: absolute;
+              top: 790%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              margin-inline: auto;
+              width: 28%;
+              height: 550px;
+              background-color: #fff;
+              border-radius: 20px;
+              left: 5%;
+             }          
+             .First-card img{
+              width: 55%;
+             }         
+             
+             .First-card h2{
+              font-size: 30px;
+          
+              font-weight: 800;
+              font-family: Poppins, sans-seri
+             }
+              .First-card h2 span{
+                color: #c91a1a;
+              }
+              .First-card  p{
+                color: rgb(43, 43, 43);
+                font-family: Poppins;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-align: center;
+                margin-bottom: 32px !important;
+              }
+
+              .First-card  button{
+                color: #ccc;
+                background-color: red;
+                border-radius: 30px;
+                line-height: 25px;
+                border: none;
+                font-family: poppins;
+                font-size: 20px;
+                padding: 10px;
+              }
+
+              /* card two  */
+
+              .Second-Card{
+                position: absolute;
+                top: 790%;
+              
+              
+                margin-inline: auto;
+                width: 28%;
+                height: 600px;
+                background-color: #fff;
+                border-radius: 20px;
+                left: 35%;
+                background-color: #e0e0e0;
+              }
+
+              .Second-Card h2{
+                color: #c91a1a  ;
+                font-family: poppins;
+                font-size: 20px;
+                font-weight: 500;
+              margin: 25px 35px ;
+              }
+
+              .Second-Card p{
+                font-family: poppins;
+                font-size: 20px;
+                font-weight: 500;
+                margin: 20px 30px ;
+                color: rgb(43, 43, 43);
+              }
+              .Second-Card span{
+                font-family: poppins;
+                font-size: 25px;
+                font-weight: 500;
+                float: right;
+                   margin: -15px;
+              }
+              .line-text{
+                position: absolute;
+                border: 3px solid #b9b9b9;
+                height: 0;
+             mix-blend-mode: multiply;
+             padding-right: 10%;
+               width: 45px;
+               left: 65%;
+               top: 14%;
+              }
+              .simple-line{
+                margin: -21px;
+                width: 92%;
+                margin-inline: auto;
+              }
+
+                             /*  line two text*/
+              .Second-Card-two{
+              
+              margin-top: 11%;
+              }
+
+              .Second-Card-two p{
+                font-family: poppins;
+                font-size: 20px;
+                font-weight: 500;
+                margin: 20px 30px ;
+                color: rgb(43, 43, 43);
+              }
+              .Second-Card-two span{
+                font-family: poppins;
+                font-size: 25px;
+                font-weight: 500;
+                float: right;
+                   margin: -12px;
+              }
+              .line-text-two{
+                position: absolute;
+                border: 3px solid #b9b9b9;
+                height: 0;
+             mix-blend-mode: multiply;
+             padding-right: 10%;
+               width: 45px;
+               left: 65%;
+               top: 24%;
+              }
+              .simple-line-two{
+                margin: -13px;
+                width: 92%;
+                margin-inline: auto;
+              }
+
+
+
+
+
+              
+                             /*  line there text*/
+                             .Second-Card-there{
+              
+                              margin-top: 11%;
+                              }
+                
+                              .Second-Card-there p{
+                                font-family: poppins;
+                                font-size: 20px;
+                                font-weight: 500;
+                                margin: 20px 30px ;
+                                color: rgb(43, 43, 43);
+                              }
+                              .Second-Card-there span{
+                                font-family: poppins;
+                                font-size: 25px;
+                                font-weight: 500;
+                                float: right;
+                                   margin: -12px;
+                              }
+                              .line-text-there{
+                                position: absolute;
+                                border: 3px solid #b9b9b9;
+                                height: 0;
+                             mix-blend-mode: multiply;
+                             padding-right: 10%;
+                               width: 45px;
+                               left: 65%;
+                               top: 35%;
+                              }
+                              .simple-line-there{
+                                margin-top: -14px;
+                                width: 92%;
+                                margin-inline: auto;
+                              }
+
+
+
+                              /*  line four text*/
+                             .Second-Card-four{
+              
+                              margin-top: 9%;
+                              }
+                
+                              .Second-Card-four p{
+                                font-family: poppins;
+                                font-size: 20px;
+                                font-weight: 500;
+                                margin: 20px 30px ;
+                                color: rgb(43, 43, 43);
+                              }
+                              .Second-Card-four span{
+                                font-family: poppins;
+                                font-size: 25px;
+                                font-weight: 500;
+                                float: right;
+                                   margin: -12px;
+                              }
+                              .line-text-four{
+                                position: absolute;
+                                border: 3px solid #b9b9b9;
+                                height: 0;
+                             mix-blend-mode: multiply;
+                             padding-right: 10%;
+                               width: 45px;
+                               left: 65%;
+                               top: 47.75%;
+                              }
+                              .simple-line-four{
+                                margin-top: -9px;
+                                width: 92%;
+                                margin-inline: auto;
+                              }
+                              /* five  line text*/
+
+                              .Second-Card-five{
+              
+                                margin-top: 9%;
+                                }
+                  
+                                .Second-Card-five p{
+                                  font-family: poppins;
+                                  font-size: 20px;
+                                  font-weight: 500;
+                                  margin: 20px 30px ;
+                                  color: rgb(43, 43, 43);
+                                }
+                                .Second-Card-five span{
+                                  font-family: poppins;
+                                  font-size: 25px;
+                                  font-weight: 500;
+                                  float: right;
+                                     margin: -12px;
+                                }
+                                .line-text-five{
+                                  position: absolute;
+                                  border: 3px solid #b9b9b9;
+                                  height: 0;
+                               mix-blend-mode: multiply;
+                               padding-right: 10%;
+                                 width: 45px;
+                                 left: 65%;
+                                 top: 60.55%;
+                                }
+                                .simple-line-five{
+                                  margin-top: -9px;
+                                  width: 92%;
+                                  margin-inline: auto;
+                                }
+                                 /* six  line text*/
+
+                              .Second-Card-six{
+              
+                                margin-top: 9%;
+                                }
+                  
+                                .Second-Card-six p{
+                                  font-family: poppins;
+                                  font-size: 20px;
+                                  font-weight: 500;
+                                  margin: 20px 30px ;
+                                  color: rgb(43, 43, 43);
+                                }
+                                .Second-Card-six span{
+                                  font-family: poppins;
+                                  font-size: 25px;
+                                  font-weight: 500;
+                                  float: right;
+                                     margin: -12px;
+                                }
+                                .line-text-six{
+                                  position: absolute;
+                                  border: 3px solid #b9b9b9;
+                                  height: 0;
+                               mix-blend-mode: multiply;
+                               padding-right: 10%;
+                                 width: 45px;
+                                 left: 65%;
+                                 top: 73.25%;
+                                }
+                                .simple-line-six{
+                                  margin-top: -9px;
+                                  width: 92%;
+                                  margin-inline: auto;
+                                }
+                                .last-text{
+                                  font-family: poppins;
+                                  font-size: 15px;
+                                  font-weight: 100;
+                                  color: #2b2b2b;
+                                  line-height: 1.55rem;
+                                }
+
+/* third card starting from here */
+
+                                .card-third{
+                                  position: absolute;
+                                  top: 790%;
+                                  margin-inline: auto;
+                                  width: 28%;
+                                  height: 600px;
+                                  background-color: #e11f1c;
+                                  border-radius: 20px;
+                                  left: 65%;
+                                 
+                                }
+                                .first-row{
+                                 display: flex;
+                                 flex-direction: row;
+                                gap: 15%;
+                                }
+                                .first-row p{
+                                  margin: 35px;
+                                  color: #fff;
+                                  font-family: poppins;
+                                  font-size: 20px;
+                                  
+                                  }
+                                  .first-row-two{
+                                    position: relative;
+                                    background-color: #a10707;
+                                    border-radius: 10px;
+                                    font-size:18px ;
+                                    height: 32px;
+                                    margin-top: 0;
+                                    padding: 6px 15px;
+                                    width: 65px;
+                                    
+                                  }
+
+                                  .Second-row{
+
+                                  }
+                                  .Second-row-para{
+                                    margin: 35px;
+                                    color: #fff;
+                                    font-family: poppins;
+                                    font-size: 20px;
+                                  }
+                                  .Second-row-price{
+                                   margin: 0px 20px;
+                                    color: #fff;
+                                    font-family: poppins;
+                                    font-size: 20px;
+                                  }
+                                  .Second-row-price-two{
+                                    margin: -8%;
+                                    margin-left:65%;
+                                     color: #fff;
+                                     font-family: poppins;
+                                     font-size: 20px;
+                                   }
+                                   .price-ratio{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center ;
+                                   }
+                                   .price-ratio-range{
+                                    color: #fff;
+                                    font-family: poppins;
+                                    font-size: 15px;
+                                    position: absolute;
+                                    background-color: #a10707;
+                                    border-radius: 10px;
+                                    height: 35px;
+                                    margin-top: 45%;
+                                    padding: 6px 15px;
+                                    width: 75px;
+                                   }
+
+                                   .year{
+                                    position: absolute;
+                                    top: 65%;
+                                    left: 10%;
+                                   }
+                                   .year p{
+                                    color: #fff;
+                                    font-family: poppins;
+
+                                   }
+                                   .Selected {
+                                    position: relative;
+                                    background-color: #a10707;
+                                    border-radius: 10px;
+                                    color: #dadada;
+                                    font-weight: 600;
+                                    height: 40px;
+                                  font-size: 15px;
+                                  padding-left: 5%;
+                                  cursor: pointer;
+                                  width: 110px;
+                                   }
+                                   .Selected option{
+                                     
+                                    background-color: #e11f1c;
+                                    border: none;
+                                    border-radius: 10px;
+                                    color: #fff;
+                                    font-size: 15px;
+                                   
+                                   }
+                                   #move-dropdown{
+                                    position: absolute;
+                                    margin-top: -3rem;
+                                    margin-left: 12rem;
+                                   }
+                                   .btn-Culculate button{
+                                    position: absolute;
+                                    background-color: #fff;
+                                    color: #a10707;
+                                    font-size: 22px;
+                                    font-family: poppins;
+                                    font-weight: 400;
+                                    border-radius: 10px;
+                                    border: none;
+                                    top: 81%;
+                                    left: 35%;
+                                   }
+                                   .btn-java-times button{
+                                    position: absolute;
+                                    align-items: center;
+                                    background-color: initial;
+                                    border: 1px solid #fff;
+                                    border-radius: 30px;
+                                    color: #fff;
+                                    display: flex;
+                                    font-family: Poppins;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    height: 35px;
+                                    justify-content: center;
+                                    letter-spacing: 0;
+                                    line-height: 24px;
+                                    padding: 20px;
+                                    text-align: center;
+                                    top: 89%;
+                                    left: 21%;
+                                   }
+
+
+                                   /*   shop Portion Starting here  */
+                                   /* .img-shop{
+                                    position: absolute;
+                                    top: 112%;
+                                    left: -55rem;
+                              
+                                   } */
+                                   
+                                   .color-side{
+                                    position: absolute;
+                                    top: 120%;
+                                    align-items: start;
+                                    background-color: #232323;
+                                    display: flex;
+                                    flex: 1 1;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    padding: 90px;
+                                    width: 73rem;
+                                    height: 15.73rem ;
+                                    left: -55rem;
+                                   }
+
+                                   .img-shop{
+                                    position: relative;
+                                    left: -87px;
+                                    width: 90%;
+                                    height: 35rem;
+                                    top: 1%;
+                                   }
+.color-side h2{
+position: absolute;
+left: 65%;
+top: 25%;
+font-family: Poppins,sans-serif;
+font-weight: 900;
+font-size: 40px;
+color: #fff;
+}
+.color-side h2 span{
+  color: #e11f1c;
+}
+
+
+       .color-side p{
+        position: absolute;
+       left: 65%;
+       top: 60%;
+font-family: Poppins,sans-serif;
+font-weight: 400;
+font-size: 15px;
+color: #fff;
+       }                 
+
+       .btn-contact{
+        position: absolute;
+        left: 65%;
+        top: 85%;
+        
+       }
+       .btn-contact button{
+        background-color: #a10707;
+        font-family: Poppins,sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 30px;
+        border: none;
+        padding: 10px 18px;
+        color: #fff;
+        
+       }
+             /* card icon starting from here */
+       .card-Heading{
+        margin-top: 450%;
+         
+         display: grid;
+        grid-template-columns: 1fr ;
+        text-align: center;
+        justify-content: center; 
+       }
+       .card-Heading h2{
+        font-size: 35px;
+        font-family: Poppins,sans-serif;
+        font-weight: 800;
+        line-height: 5px;
+        letter-spacing: 0rem;
+       
+       }
+       .card-Heading h2 span{
+        color: #df1e1e;
+       }
+       .card-Heading{
+        font-size: 20px;
+        font-family: Poppins,sans-serif;
+        font-weight: 500;
+        line-height: 5px;
+        letter-spacing: 0rem;
+       }
+
+
+       .card-section {
+     
+        margin: 35px;
+       
+    }
+    
+    
+    .box-container {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;  
+    }
+    
+    .box {
+      height: 100%;
+    padding: 28px 39px;
+      width: 15%; 
+      
+      background-color: #fff;
+      border:none;
+      box-shadow: 10px 0 15px -5px #000;
+      transition: box-shadow 0.3s, border 0.3s;
+    }
+    
+    .box:hover {
+      box-shadow: 10px 0 15px -5px #000, -10px 0 15px -5px #000; 
+      border-bottom: 4px solid #f10909; 
+    }
+    .box h2{
+      color: #565656;
+      font-family: Poppins;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 25px;
+        margin-top:22px ;
+        margin-bottom: 6px;
+        text-align: left;
+    }
+    .box p{
+      color: #565656;
+      font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 25px;
+        margin-top:22px ;
+        margin-bottom: 6px;
+        text-align: left;
+    }
+   .left-color{
+    background: #232323;
+    padding-bottom: 60px;
+    width: 30%;
+    height: 910px;
+    margin-top: 5%;
+   }
+ .left-color ul li{
+font-family: poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: #fff;
+padding: 10px 0 10px 50px;
+list-style: none;
+}
+.left-color ul .parent{
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 0 10px 50px;
+  color: #f31919;
+}
+.left-color ul li:active{
+color: #a10707;
+}
+.heading-list{
+  font-family: poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 10px 0 10px 50px;
+  color: #a10707;
+
+}
+
+.ratio-text-icon{
+margin-top: -65%;
+margin-left: 35%;
+
+}
+.ratio-text{  
+margin-top: -28%;
+  margin-left: 31%;
+  font-size: 25px;
+  font-family: 500;
+  font-style: normal;
+  line-height: 25px;
+  font-family: poppins;
+  color: #404040;
+}
+
+.muilti-para{
+  width: 55%;
+  margin-left: 35%;
+}
+ .red-text-bold {
+  /* font-size:15px;
+  font-family: Poppins,sans-serif;
+  font-size: 900;
+  font-style: normal;
+color: #a10707; */
+
+color: #e11f1c;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 0 10px;
+}
+.red-text-bold-two{
+  color: #404040;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0 0 10px;
+}
+.red-text-bold-there{
+  color: #a10707;
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 10px;
+}
+
+
+            /* investor page slider starting from here */
+           
+            .slider-parent{
+              margin-top: 10%;
+              text-align: center;
+            }
+
+            .slider-parent h2{
+              font-family: poppins;
+              font-size: 27px;
+              font-weight: 700;
+              line-height: normal;
+             
+            }
+            .slider-parent span{
+              font-family: poppins;
+              font-size: 30px;
+              font-weight: 900;
+              line-height: normal;
+           
+              color: #a10707;
+            }
+            .slider-parent p{
+              font-family: poppins;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 0;
+              margin-top: -1%;
+           
+            }
+
+
+            /* Slider Two line  */
+
+            .slider-container-two{
+              /* width: 100%;
+              height: 200px; */
+
+            }
+            .parent{
+              margin-top: 7%;
+              width: 100%;
+              height: 50%;
+            }
+            .slider-img-two{
+              width: 30%;
+              height: 450px;
+              margin: 0px;
+            }
+            .text-img{
+              display: flex;
+              
+            
+            }
+            .text-img img{
+              position: absolute;
+              top: 25%;
+              left:33%;
+            }
+            .text-parent{
+              display: flex;
+              flex-direction: column;
+            }
+
+
+            .investor-title{
+              font-size: 24px;
+              font-family: poppins;
+              font-weight: 700;
+              color: #404040;
+              
+              font-style: normal;
+             margin-top:  -25% ;
+             margin-left: 35%;
+            }
+            .investor-details{
+              font-size: 20px;
+              font-family: poppins;
+              font-weight: 500;
+              color: #404040;
+              
+              font-style: normal;
+             margin-top:  -1% ;
+             margin-left: 35%;
+            }
+            .text-img-two img{
+            margin-left: 90%;
+            }
+
+
+                                 /* java times slider starting from here */
+             .java-time-H{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+         margin-top: 10%;
+        }
+        .java-time-H h2{
+          font-size: 25px;
+          font-family: poppins;
+          font-weight: 800;
+          letter-spacing: 0rem;
+          color: #000;  
+           
+          }
+          .java-time-H span{
+
+            color: #c91313;
+          } 
+
+
+          /* java times slider  */
+
+           .caraousel-parent{
+            
+            margin-top: 5%;
+            margin-left: 10%;
+          }
+           .card-carousel{
+            width: 75%;
+            height: 400px;
+            background-color: #f0eaea;
+            border-radius: 20px;
+            box-sizing: border-box;
+          }
+       .card-carousel:hover{
+       box-shadow: 5px 15px 10px 5px #00000071;
+      }
+      .react-multiple-carousel__arrow {
+        position: absolute;
+        outline: 0;
+        transition: all .5s;
+        border-radius: 35px;
+        z-index: 1000;
+        border: 0;
+        background: rgb(195 55 55 / 50%);
+        min-width: 43px;
+        min-height: 43px;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+          .card-carousel-img{
+            width: 75%;
+            height: 230px;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+          
+         .text-slider p{
+             width: 75%;
+            font-size: 22px;
+            font-family:poppins ;
+            font-weight: 700;
+            font-style: normal;
+            color: #2b2b2b;
+            margin-bottom: 0;
+            position: absolute;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+           top: 55%;
+          }
+         
+          
+              .text-slider .para {
+                font-size:18px ;
+                font-weight: 500;
+                font-style: normal;
+                font-family: poppins;
+                color: #2b2b2b;
+                width: 75%;
+              top: 65%;
+              }
+              .img-name-icon{
+                 position: absolute;
+                  top: 78%;
+                }
+              .img-small{
+                width: 14%;
+                
+              border-radius: 30px;
+              
+              }
+              .img-name-icon .name{
+                font-size:22px ;
+                font-weight:700;
+                font-style: normal;
+                font-family: poppins;
+                color: #2b2b2b;
+                width: 75%;
+                left: 18%;
+               top: -5%;
+              }
+          
+              .days{
+                font-size:15px ;
+                font-weight:500;
+                font-style: normal;
+                font-family: poppins;
+                color: #2b2b2b;
+               position: absolute;
+                width: 75%;
+                left: 18%;
+               top: 60%;
+              }
+           .icon{
+            position: absolute;
+          top: 85%;
+          left: 60%; 
+          }
+
+          /*Contact page starting from here  */
+  
+        .contact-text{
+          margin-top: 25%;
+          margin-left: 10%;
+        }
+       .contact-text h2{
+        color: #2b2b2b;
+        font-size: 35px;
+        font-weight: 700;
+        font-family: Poppins;
+        font-style: normal;
+        line-height: 40px;
+        margin-top: 10px;
+       margin-bottom: 10px;
+        
+       }
+          .contact-text h2 span{
+            color: #e11f1c;
+          }
+          .contact-text p{
+            color: #2b2b2b;
+            font-size: 22px;
+            font-weight: 500;
+            font-family: poppins;
+            font-style: normal;
+
+          }
+
+
+          /* form starting from here */
+
+          .form-size-Cnt{
+            margin-top: -30%;
+            margin-left: 35%;
+            width: 55%;
+            height: 550px;
+            border: 2px solid #2b2b2b;
+            border-radius: 20px;
+            background-color: #fff;
+          }
+          .row {
+           
+            display: flex;
+            flex-wrap: wrap;
+           
+          }
+          .col-lg-6 {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+        h3 {
+          color: #a7a6a6;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin: 15px 25px;
+        }
+        input{
+          background: #f3f3f3;
+          border: none;
+          border-radius: 5px;
+          color: #3e3e3e;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          width: 80%;
+          margin: 0px 15px;
+      }
+      input {
+        height: 55px;
+        margin-bottom: 24px;
+        padding: 0 18px;
+    }
+    .col-lg-12{
+      flex: 0 0 auto;
+      width: 112%;
+    }
+
+      textarea{
+      background-color: #f3f3f3;
+      border: none;
+        border-radius: 5px;
+        font-weight: 500;
+        font-family: poppins;
+        font-style: normal;
+        line-height:normal ;
+        width: 85%;
+        margin: 0 12px;
+    }
+    textarea {
+      resize: vertical;
+  }
+  .btn-submit    button {
+    background: #e11f1c;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    height: 57px;
+    line-height: normal;
+    margin-top: 31px;
+    margin-left: 40%;
+    text-align: center;
+    width: 171px;
+}
+                 /*Footer starting from here  */
+
+                 .footer-img{
+                  background: url('./components/images/lp-bg.c80f120664b06864d704.png');
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  position: absolute;
+                  width: 100%;
+                  height: 1000px;
+                  margin-top: 5%;
+                 }
+
+                 .col-md-3{
+                  position: absolute;
+                  display: flex;
+                  flex: 0 0 auto;
+                  width: 25%;
+                  margin-left: 10% ;
+                 margin-top: 15%;
+                 }
+
+                  .footer-heading{
+                  font-size: 22px;
+                  font-family: poppins;
+                  font-weight: 700;
+                  line-height: 25px;
+                  color: #fff;
+
+                 }
+                 .footer-desc{
+                  font-size: 15px;
+                  font-family: poppins;
+                  font-weight: 500;
+                  line-height: px;
+                  color: #fff;
+                 }
+                 ul li{
+                  list-style: none;
+                 }
+
+                   .map-marker   {
+                      color: #fff;
+                       margin-left: -15%;
+                   }
+                   .phone{
+                    color: #fff;
+                    margin-left: -15%;
+                   }
+                   
+                   .envelope{
+                    color: #fff;
+                    margin-left: -15%;
+                   }
+
+                 ul li span{
+                  font-size: 15px;
+                  font-family: poppins;
+                  font-weight: 500;
+                  line-height: 40px;
+                  color: #fff;
+                  margin-left: -1%;
+                 }
+                 .pt-1{
+                  margin-top: 5%;
+                 }
+
+                  /* row two */
+
+                  .col-md-3-two{
+                    position: absolute;
+                    display: flex;
+                    flex: 0 0 auto;
+                    width: 25%;
+                    margin-left: 40% ;
+                   margin-top: 15%;
+                   }
+  
+                    .footer-heading-two{
+                    font-size: 22px;
+                    font-family: poppins;
+                    font-weight: 700;
+                    line-height: 25px;
+                    color: #fff;
+  
+                   }
+                   .footer-desc-two{
+                    font-size: 15px;
+                    font-family: poppins;
+                    font-weight: 500;
+                    line-height: px;
+                    color: #fff;
+                   }
+
+                  /* row third */
+                   .col-there{
+                    position: absolute;
+                    display: flex;
+                    flex: 0 0 auto;
+                    width: 25%;
+                    margin-left: 60% ;
+                  margin-top: 19%;
+                   }
+
+                   .footer-heading-there{
+                    font-size: 22px;
+                    font-family: poppins;
+                    font-weight: 700;
+                    line-height: 25px;
+                        color: #fff;
+                        
+                        margin-top: -10%;
+                        margin-left: 30%;
+                   }
+                   .footer-desc-there{
+                    font-size: 15px;
+                    font-family: poppins;
+                    font-weight: 500;
+                    line-height: px;
+                    color: #fff;
+                    margin-left: -42%;
+                   }
+
+                   .btn-input input{
+                    position: absolute;
+                    margin-top: 43%;
+                    margin-left: 65%;
+                    width: 20%;
+                    background-color:  #d3d3d3;
+                       color: #d3d3d3;
+                       border-radius: 35px;
+                   }
+                   .Get-started-btn{
+                    position: absolute;
+                    margin-top: 43%;
+                    margin-left: 78%;
+                    width: 15%;
+                   background-color: #a10707;
+                   height: 9%;
+                   border: none;
+                   border-radius: 35px;
+                   font-size: 22px;
+                   color: #fff;
+                   }
+                   .Get-started-btn:active{
+                          background-color: #707070;
+                          border: 1px solid #a10707;
+                   }
+
+
+                   .icon-section-path{
+                    display: grid;
+                    grid-template-rows: 1fr 1fr;
+                    width: 30%;
+                    height: 100px;
+                       position: absolute;
+                   margin-top: 48%;
+                   margin-left: 68%;
+                   
+                      }
+                   .icon-section-path p{
+                    font-size: 22px;
+                    font-family: poppins;
+                    font-weight: 700;
+                    line-height: 10px;
+                        color: #fff;
+                   }
+                   .icon-section-path  .icon-text{
+                    font-size: 13px;
+                    font-family: poppins;
+                    font-weight: 400;
+                    
+                        color: #fff;
+                   }
+                   .icon-flag{
+                    width: 50%;
+                    height: 55px;
+                   }
+
+
+                   .icon-section-path-two{
+                    display: grid;
+                    grid-template-columns:1fr ;
+                    width: 30%;
+                    height: 100px;
+                       position: absolute;
+                   margin-top: 48%;
+                   margin-left: 85%;
+                   }
+
+                   .icon-section-path-two p{
+                    font-size: 22px;
+                    font-family: poppins;
+                    font-weight: 700;
+                    line-height: 10px;
+                        color: #fff;
+                   }
+                   .icon-small{
+                    width: 15%;
+                    height: 45px;
+                   }
